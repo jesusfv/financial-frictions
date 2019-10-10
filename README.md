@@ -1,7 +1,7 @@
 # Financial Frictions and the Wealth Distribution
 Interactive guide to Fernández-Villaverde, Hurtado and Nuño (2019): "Financial Frictions and the Wealth Distribution".
 ## 1. Resources
-* [Paper](https://github.com/ryanzalla/financial-frictions/blob/master/paper.pdf) (slides)
+* [Paper](https://github.com/ryanzalla/financial-frictions/blob/master/paper.pdf) ([slides](https://github.com/ryanzalla/financial-frictions/blob/master/Slides_Short.pdf))
 * Krusell-Smith economy: regression ([code](https://github.com/ryanzalla/financial-frictions/tree/master/KS_LR)) ([description](https://github.com/ryanzalla/financial-frictions/blob/master/KS_LR/a0_documentation.pdf))
 * Krusell-Smith economy: neural networks ([code](https://github.com/ryanzalla/financial-frictions/tree/master/KS_NN)) ([description](https://github.com/ryanzalla/financial-frictions/blob/master/KS_NN/a0_documentation.pdf))
 * A model with financial intermediaries: neural network ([code](https://github.com/ryanzalla/financial-frictions/tree/master/FFWD_NN)) ([description](https://github.com/ryanzalla/financial-frictions/blob/master/FFWD_NN/a0_documentation.pdf))

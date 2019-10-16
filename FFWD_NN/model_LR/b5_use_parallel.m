@@ -16,14 +16,19 @@ disp(' ');
 
 
 % if there's less than 12 GB of RAM, better not to use the parallel toolbox even if it's available
-[userview,systemview] = memory;
-if systemview.PhysicalMemory.Total < 12*1024*1024*1024
-    disp('Total memory <12GB');
-    use_parallel = 0;
+% the "memory" function is only available on Windows, so if you're on Linux or Mac and have <12GB of RAM please use the manual override at the end
+
+if ispc
+    [userview,systemview] = memory;
+    if systemview.PhysicalMemory.Total < 12*1024*1024*1024
+        disp('Total memory <12GB');
+        use_parallel = 0;
+    end
 end
 
 
 % manual override
 % use_parallel = 0;
+
 
 
